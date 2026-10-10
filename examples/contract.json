@@ -1,0 +1,11 @@
+{
+  "input_type": "tabular",
+  "target_column": "outcome",
+  "columns": [
+    {"name": "age", "dtype": "float"},
+    {"name": "bmi", "dtype": "float"},
+    {"name": "outcome", "dtype": "int"}
+  ],
+  "metric": "accuracy",
+  "prediction_type": "classification"
+}

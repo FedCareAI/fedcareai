@@ -1,0 +1,34 @@
+[project]
+name = "fedcareai"
+version = "0.1.0"
+description = "Python CLI for privacy-preserving federated healthcare AI workflows"
+readme = "README.md"
+license = "GPL-3.0-only"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.10"
+dependencies = [
+    "typer[all]",
+    "pydantic>=2",
+    "requests",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "joblib",
+]
+
+[project.optional-dependencies]
+keras = ["tensorflow"]
+dev = [
+    "pytest",
+    "pytest-mock",
+]
+
+[project.scripts]
+fedcare = "fedcareai.cli.main:app"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,11 @@
+FedCareAI Python library
+Copyright (c) 2026 FedCareAI contributors
+
+The source code, tests, examples, and accompanying documentation in this
+distribution are licensed under the GNU General Public License, version 3
+only (SPDX-License-Identifier: GPL-3.0-only). See LICENSE for the full terms.
+
+This program is distributed without any warranty, including the implied
+warranties of merchantability or fitness for a particular purpose.
+
+The separately maintained FedCareAI platform is not part of this distribution.
